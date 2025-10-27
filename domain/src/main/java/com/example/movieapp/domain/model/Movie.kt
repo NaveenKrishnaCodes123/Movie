@@ -10,7 +10,11 @@ data class Movie(
     val overview: String? = null,
     val genre: List<String>? = emptyList(),
     val duration: Int? = null,
-    val isBookmarked: Boolean = false
+    val isBookmarked: Boolean = false,
+    val description: String?=null,
+    val director: String?=null,
+    val cast: List<String>? = emptyList(),
+
 )
 data class RatingDto(
     val imdb: Double

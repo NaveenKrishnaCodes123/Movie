@@ -25,8 +25,17 @@ data class MovieDto(
     @SerializedName("genre")
     val genre: List<String>? = emptyList(),
 
+    @SerializedName("cast")
+    val cast: List<String>? = emptyList(),
+
     @SerializedName("duration")
-    val duration: Int? = null
+    val duration: Int? = null,
+
+    @SerializedName("description")
+    val description: String  ,
+
+    @SerializedName("director")
+    val director: String
 ) {
     fun toMovie(isBookmarked: Boolean = false): Movie {
         return Movie(
@@ -37,8 +46,11 @@ data class MovieDto(
             poster_url = posterUrl,
             overview = overview,
             genre = genre,
+            cast = cast,
             duration = duration,
-            isBookmarked = isBookmarked
+            isBookmarked = isBookmarked,
+            description = description,
+            director = director
         )
 
     }

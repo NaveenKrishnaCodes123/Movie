@@ -23,8 +23,17 @@ data class MovieDto(
     @SerializedName("overview")
     val overview: String? = null,
 
+    @SerializedName("description")
+    val description: String? = null,
+
+    @SerializedName("director")
+    val director: String? = null,
+
     @SerializedName("genre")
     val genre: List<String>? = emptyList(),
+
+    @SerializedName("cast")
+    val cast: List<String>? = emptyList(),
 
     @SerializedName("duration")
     val duration: Int? = null
@@ -38,8 +47,11 @@ data class MovieDto(
             poster_url = posterUrl,
             overview = overview,
             genre = genre,
+            cast = cast,
             duration = duration,
-            isBookmarked = isBookmarked
+            isBookmarked = isBookmarked,
+            description = description.toString(),
+            director = director.toString()
         )
     }
 }

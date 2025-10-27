@@ -11,11 +11,13 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.example.movieapp.viewModel.MovieListViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
+@Preview
 @Composable
 fun MovieListScreen(
     onMovieClick: (String) -> Unit,
@@ -29,7 +31,7 @@ fun MovieListScreen(
                 title = { Text("Movies") },
                 actions = {
                     IconButton(onClick = { viewModel.onEvent(MovieListEvent.ToggleSortDialog) }) {
-                        Icon(painterResource(R.drawable.filt), contentDescription = "Sort")
+                        Icon(painterResource(R.drawable.filter), contentDescription = "Sort")
                     }
                 }
             )
