@@ -5,12 +5,18 @@
 </div>
 
 ## 📱 About
-Brief description of your Android application.
+A modern Android app for movie lovers to discover, search, and save their favorite films.
 
 ## ✨ Features
-- Feature 1
-- Feature 2
-- Feature 3
+Browse Movies - Beautiful list with posters, titles, and ratings
+
+Smart Search - Find movies by title instantly
+
+Sort & Filter - Organize by title, date, or rating
+
+Bookmark Favorites - Save movies for offline viewing
+
+Detailed Views - Complete movie information
 
 ## 🛠 Tech Stack
 - **Kotlin** - Programming language
@@ -22,7 +28,7 @@ Brief description of your Android application.
 ## 📸 Screenshots
 | Home Screen                                  | Details Screen                              | Filter                                                    |
 |----------------------------------------------|---------------------------------------------|-----------------------------------------------------------|
-|  | <img src="app/src/main/res/drawable/home.png" width="200"> | <img src="app/src/main/res/drawable/dis.png" width="200"> |  <img src="app/src/main/res/drawable/filt.png" width="200">
+|  <img src="app/src/main/res/drawable/home.png" width="200"> | <img src="app/src/main/res/drawable/dis.png" width="200"> |  <img src="app/src/main/res/drawable/filt.png" width="200">|
 
 ## 🏗 Project Structur
 MovieApp/
