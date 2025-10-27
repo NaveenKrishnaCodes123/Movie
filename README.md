@@ -30,6 +30,10 @@ Detailed Views - Complete movie information
 |----------------------------------------------|---------------------------------------------|-----------------------------------------------------------|
 |  <img src="app/src/main/res/drawable/home.png" width="200"> | <img src="app/src/main/res/drawable/dis.png" width="200"> |  <img src="app/src/main/res/drawable/filt.png" width="200">|
 
+
+| Movie APP APK  |
+| [APK](app/src/assets/movieapp.apk)) |
+
 ## 🏗 Project Structur
 MovieApp/
 ├── app/
