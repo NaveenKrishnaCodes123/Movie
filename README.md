@@ -1,7 +1,7 @@
 # 🚀 App Name
 
 <div align="center">
-  <img src="app/src/main/res/mipmap-hdpi/icon.jpeg" width="100" alt="App Icon">
+  <img src="app/src/main/res/drawable/icon.jpeg" width="100" alt="App Icon">
 </div>
 
 ## 📱 About
@@ -20,11 +20,11 @@ Brief description of your Android application.
 - **Dagger-Hilt** - Dependency injection
 
 ## 📸 Screenshots
-| Home Screen                                  | Details Screen                              | Filter                                       |
-|----------------------------------------------|---------------------------------------------|----------------------------------------------|
-| <img src="screenshots/home.jpg" width="200"> | <img src="screenshots/dis.png" width="200"> | <img src="screenshots/filt.jpg" width="200"> |
+| Home Screen                                  | Details Screen                              | Filter                                                    |
+|----------------------------------------------|---------------------------------------------|-----------------------------------------------------------|
+|  | <img src="app/src/main/res/drawable/home.png" width="200"> | <img src="app/src/main/res/drawable/dis.png" width="200"> |  <img src="app/src/main/res/drawable/filt.png" width="200">
 
-## 🏗 Project Structure
+## 🏗 Project Structur
 MovieApp/
 ├── app/
 ├── build.gradle.kts
