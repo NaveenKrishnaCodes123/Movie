@@ -22,7 +22,7 @@ Brief description of your Android application.
 ## 📸 Screenshots
 | Home Screen                                  | Details Screen                              | Filter                                       |
 |----------------------------------------------|---------------------------------------------|----------------------------------------------|
-| <img src="screenshots/home.png" width="200"> | <img src="screenshots/dis.png" width="200"> | <img src="screenshots/filt.jpg" width="200"> |
+| <img src="screenshots/home.jpg" width="200"> | <img src="screenshots/dis.png" width="200"> | <img src="screenshots/filt.jpg" width="200"> |
 
 ## 🏗 Project Structure
 MovieApp/
